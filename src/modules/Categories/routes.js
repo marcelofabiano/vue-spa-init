@@ -4,6 +4,6 @@ export default [
   {
     path: '/categories',
     component: Index,
-    name: 'categories'
+    name: 'categories.index'
   }
 ]
