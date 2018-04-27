@@ -14,9 +14,7 @@
 
       <md-list>
         <md-list-item>
-          <<md-icon>
-            <dashboard></dashboard>
-          </md-icon></md-icon>
+          <md-icon>home</md-icon>
           <router-link :to="{name:'dashboard'}" class="md-list-item-text">Dashboard</router-link>
         </md-list-item>
 
@@ -35,7 +33,7 @@
 
 <script>
   export default {
-    name: 'Temporary',
+    name: 'App',
     data: () => ({
       showNavigation: false
     })

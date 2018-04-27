@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import Categories from '../modules/Categories/store/main'
+import Categories from '../modules/Categories/store'
 
 Vue.use(Vuex)
 
